@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="imag/logon.png" alt="logo" class="logo">
+    <div class="form-wrapper">
+        <h2>Inicia Sesion</h2>
+
+        <form action="#">
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email o numero de celular</label>
+            </div>
+
+            <div class="form-control">
+                <input type="password" required>
+                <label>contraseña</label>    
+            </div>
+            
+            <button type="submit">Iniciar Sesión</button>
+            <div class="form-help">
+                <div class="login-container">
+                    <div style="text-align: center; padding: 5px;">
+                        <label style="color: white;">O</label>
+                    </div>
+                    <button class="login-button">Usar un codigo de inicio de sesion</button>
+                </div>
+
+                <p><a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a></p>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Recuerdame</label>
+                </div>
+            </div>
+        </form>
+        <p>¿Primera vez en Netflix?<a href="#">Suscribete ya.</a></p>
+        <small>
+            Esta pagina esta protegida  por Google reCAPTCHA para comprobar que no eres un robot.
+            <a href="#">Mas Info.</a>
+        </small>
+    </div>
+</body>
+</html>
